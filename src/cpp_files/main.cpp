@@ -1,8 +1,8 @@
 #include <iostream>
 #include <string>
-#include "../include/operations.h"
-#include "../include/color.h"
-#include "../include/calc.h"
+#include "operations.h"
+#include "color.h"
+#include "calc.h"
 
 int main() {
     init_calculator();

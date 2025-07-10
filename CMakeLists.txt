@@ -8,14 +8,14 @@ set(CMAKE_CXX_STANDARD 17)
 add_library(c_operations STATIC 
     src/c_files/add.c 
     src/c_files/subtract.c
+    src/c_files/divide.c 
+    src/c_files/multiply.c
     src/c_files/color.c
-    src/c_files/calc/c
 )
 
 # 创建动态库 (C++代码)
 add_library(cpp_operations SHARED 
-    src/cpp_files/multiply.cpp 
-    src/cpp_files/divide.cpp
+        src/cpp_files/calc.cpp
 )
 
 # 创建可执行文件

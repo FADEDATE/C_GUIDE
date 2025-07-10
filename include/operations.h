@@ -1,6 +1,7 @@
 #ifndef OPERATIONS_H
 #define OPERATIONS_H
 
+#include "stdio.h"
 #ifdef __cplusplus
 extern "C" {
 #endif

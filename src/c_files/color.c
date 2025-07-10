@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../include/color.h"
+#include "color.h"
 
 void print_red(const char* text) {
     printf("\033[1;31m%s\033[0m", text);

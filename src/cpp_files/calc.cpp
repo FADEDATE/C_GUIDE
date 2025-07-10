@@ -1,5 +1,5 @@
-#include "../include/calc.h"
-#include <stdio.h>
+#include "calc.h"
+#include <iostream>
 
 void init_calculator() {
     printf("Initializing calculator...\n");
